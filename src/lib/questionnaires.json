@@ -1,0 +1,55 @@
+{
+  "questionnaires": {
+    "phq-9": {
+      "title": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+      "questions": [
+        "Little interest or pleasure in doing things",
+        "Feeling down, depressed, or hopeless",
+        "Trouble falling or staying asleep, or sleeping too much",
+        "Feeling tired or having little energy",
+        "Poor appetite or overeating",
+        "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+        "Trouble concentrating on things, such as reading the newspaper or watching television",
+        "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+        "Thoughts that you would be better off dead or of hurting yourself in some way"
+      ],
+      "answers": [
+        { "text": "Not at all", "value": 0 },
+        { "text": "Several days", "value": 1 },
+        { "text": "More than half the days", "value": 2 },
+        { "text": "Nearly every day", "value": 3 }
+      ],
+      "interpretation": [
+        { "min": 0, "max": 4, "level": "Minimal depression", "recommendation": "Your responses suggest you are experiencing minimal to no symptoms of depression. Keep monitoring your mood." },
+        { "min": 5, "max": 9, "level": "Mild depression", "recommendation": "Your responses suggest you may be experiencing mild symptoms of depression. Consider talking to someone or exploring our resources." },
+        { "min": 10, "max": 14, "level": "Moderate depression", "recommendation": "Your responses suggest you may be experiencing moderate symptoms of depression. We strongly recommend talking to a counselor." },
+        { "min": 15, "max": 19, "level": "Moderately severe depression", "recommendation": "Your responses suggest you may be experiencing moderately severe symptoms of depression. Please book an appointment with a counselor as soon as possible." },
+        { "min": 20, "max": 27, "level": "Severe depression", "recommendation": "Your responses suggest you may be experiencing severe symptoms of depression. It is very important that you speak with a mental health professional right away." }
+      ]
+    },
+    "gad-7": {
+      "title": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+      "questions": [
+        "Feeling nervous, anxious, or on edge",
+        "Not being able to stop or control worrying",
+        "Worrying too much about different things",
+        "Trouble relaxing",
+        "Being so restless that it is hard to sit still",
+        "Becoming easily annoyed or irritable",
+        "Feeling afraid as if something awful might happen"
+      ],
+      "answers": [
+        { "text": "Not at all", "value": 0 },
+        { "text": "Several days", "value": 1 },
+        { "text": "More than half the days", "value": 2 },
+        { "text": "Nearly every day", "value": 3 }
+      ],
+      "interpretation": [
+        { "min": 0, "max": 4, "level": "Minimal anxiety", "recommendation": "Your responses suggest you are experiencing minimal to no symptoms of anxiety." },
+        { "min": 5, "max": 9, "level": "Mild anxiety", "recommendation": "Your responses suggest you may be experiencing mild symptoms of anxiety. Our resources on stress management may be helpful." },
+        { "min": 10, "max": 14, "level": "Moderate anxiety", "recommendation": "Your responses suggest you may be experiencing moderate symptoms of anxiety. Talking to a professional could provide you with effective coping strategies." },
+        { "min": 15, "max": 21, "level": "Severe anxiety", "recommendation": "Your responses suggest you may be experiencing severe symptoms of anxiety. We strongly encourage you to book an appointment with a counselor to get support." }
+      ]
+    }
+  }
+}

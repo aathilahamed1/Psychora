@@ -1,0 +1,32 @@
+{
+    "pathways": [
+        {
+            "id": "exam-stress",
+            "titleKey": "pathways.examStress.title",
+            "descriptionKey": "pathways.examStress.description",
+            "tasks": [
+                { "day": 1, "descriptionKey": "pathways.examStress.tasks.day1", "link": "/resources" },
+                { "day": 2, "descriptionKey": "pathways.examStress.tasks.day2", "link": "/resources" },
+                { "day": 3, "descriptionKey": "pathways.examStress.tasks.day3", "link": "/resources" },
+                { "day": 4, "descriptionKey": "pathways.examStress.tasks.day4", "link": "/resources" },
+                { "day": 5, "descriptionKey": "pathways.examStress.tasks.day5", "link": "/resources" },
+                { "day": 6, "descriptionKey": "pathways.examStress.tasks.day6", "link": "/resources" },
+                { "day": 7, "descriptionKey": "pathways.examStress.tasks.day7", "link": "/resources" }
+            ]
+        },
+        {
+            "id": "mindfulness-basics",
+            "titleKey": "pathways.mindfulness.title",
+            "descriptionKey": "pathways.mindfulness.description",
+            "tasks": [
+                { "day": 1, "descriptionKey": "pathways.mindfulness.tasks.day1", "link": "/resources" },
+                { "day": 2, "descriptionKey": "pathways.mindfulness.tasks.day2", "link": "/resources" },
+                { "day": 3, "descriptionKey": "pathways.mindfulness.tasks.day3", "link": "/resources" },
+                { "day": 4, "descriptionKey": "pathways.mindfulness.tasks.day4", "link": "/resources" },
+                { "day": 5, "descriptionKey": "pathways.mindfulness.tasks.day5", "link": "/resources" },
+                { "day": 6, "descriptionKey": "pathways.mindfulness.tasks.day6", "link": "/resources" },
+                { "day": 7, "descriptionKey": "pathways.mindfulness.tasks.day7", "link": "/resources" }
+            ]
+        }
+    ]
+}

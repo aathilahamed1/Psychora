@@ -1,0 +1,29 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "counselor1",
+      "description": "A portrait of Dr. Anju Sharma",
+      "imageUrl": "https://picsum.photos/seed/counselor1/400/400",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "counselor2",
+      "description": "A portrait of Dr. Rahul Gupta",
+      "imageUrl": "https://picsum.photos/seed/counselor2/400/400",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "counselor3",
+      "description": "A portrait of Dr. Priya Singh",
+      "imageUrl": "https://picsum.photos/seed/counselor3/400/400",
+      "imageHint": "woman professional"
+    },
+    {
+      "id": "user-avatar",
+      "description": "A generic user avatar",
+      "imageUrl": "https://picsum.photos/seed/useravatar/100/100",
+      "imageHint": "person avatar"
+    }
+  ]
+}
