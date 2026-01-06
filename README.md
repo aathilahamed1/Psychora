@@ -4,7 +4,7 @@ This is a Next.js application designed to be a comprehensive mental wellness com
 
 ## Getting Started
 
-To get a copy of this project running on your local machine, you will need to have [Node.js](https://nodejs.org/) and [git](https://git-scm.com/) installed.
+To get a copy of this project running on your local machine, you will need to have [Node.js](https://nodejs.org/) and [git](https://git-scm.com/) installed
 
 ### 1. Clone the Repository
 
